@@ -3,15 +3,25 @@
 <head><title>que viva el maestro raton</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style id="quevivaStyle">
-img {
+#boxMig {
     background-image:url(./migs/bag0.jpg);
     background-size: contain;
     display: block;
     margin: auto;
 }
+
+@media screen and (max-width:500px) {
+    body {
+        margin: 0;
+    }
+    #boxMig {
+        width: 100%;
+    }
+}
+
 </style>
 </head>
 <body>
-<img src="./migs/hackBox0.svg">
+<img id="boxMig" src="./migs/hackBox0.svg">
 </body>
 </html>
