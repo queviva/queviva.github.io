@@ -1,2 +1,2 @@
 # queviva.github.io
-[index](https://queviva.github.io/)
+[site](https://queviva.github.io/)
